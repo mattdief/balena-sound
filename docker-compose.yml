@@ -61,7 +61,6 @@ services:
     build: ./upnp
     restart: on-failure 
     network_mode: host 
-    privileged: true
     ports:
       - 49494:49494
     volumes:
